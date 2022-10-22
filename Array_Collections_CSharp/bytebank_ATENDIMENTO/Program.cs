@@ -6,7 +6,6 @@ Console.WriteLine("Boas Vindas ao ByteBank, Atendimento.");
 TestaMediana(CriandoArrayAmostra());
 
 // Métodos
-
 void TestaArrayInt()
 {
     int[] idades = new int[5];
@@ -106,6 +105,11 @@ void TestaMediana(Array array)
     // Encontrando indice do meio
     int tamanho = numerosOrdenados.Length;
     int meio = tamanho / 2;
+
+    // calculando mediana (é usado o operador ternario para fazer teste booleano)
+    // usa ? para indicar verdadeiro e : para indicar falso
+    // se caso (tamanho % 2 != 0) for true -> ? numerosOrdenados[meio]
+    // se caso (tamanho % 2 != 0) for false -> : (numerosOrdenados[meio] + numerosOrdenados[meio - 1]) / 2
     double mediana = (tamanho % 2 != 0) ? numerosOrdenados[meio] :
         (numerosOrdenados[meio] + numerosOrdenados[meio - 1]) / 2;
 

@@ -1,4 +1,5 @@
 ﻿using bytebank.Modelos.Conta;
+using bytebank_ATENDIMENTO.bytebank.Util;
 using System;
 using System.Xml;
 
@@ -10,7 +11,8 @@ double[] amostra = new double[] { 3, 5, 7, 15, 20 };
 // Chamando métodos
 //TestaMediana(CriandoArrayAmostra());
 //MediaAmostra(amostra);
-TestaArrayDeContasCorrentes();
+//TestaArrayDeContasCorrentes();
+ListaDecontaCorrente();
 
 // Métodos
 void TestaArrayInt()
@@ -154,7 +156,7 @@ void TestaArrayDeContasCorrentes()
     {
         new ContaCorrente(874, "5679787-A"),
         new ContaCorrente(874, "4456668-B"),
-        new ContaCorrente(874, "7781438-C")
+        new ContaCorrente(874, "7781438-C"),
     };
 
     // Iterando sobre o array para exibir os valores da conta
@@ -163,4 +165,15 @@ void TestaArrayDeContasCorrentes()
         ContaCorrente contaAtual = listaDeContas[i];
         Console.WriteLine($"Indice {i} - Agencia: {contaAtual.Numero_agencia} - Conta: {contaAtual.Conta}");
     }
+}
+
+void ListaDecontaCorrente()
+{
+    ListaDeContasCorrentes listaDeContas = new ListaDeContasCorrentes();
+    listaDeContas.Adicionar(new ContaCorrente(874, "5679787-A"));
+    listaDeContas.Adicionar(new ContaCorrente(874, "4456668-B"));
+    listaDeContas.Adicionar(new ContaCorrente(874, "7781438-C"));
+    listaDeContas.Adicionar(new ContaCorrente(874, "7781438-C"));
+    listaDeContas.Adicionar(new ContaCorrente(874, "7781438-C"));
+    listaDeContas.Adicionar(new ContaCorrente(874, "7781438-C"));
 }

@@ -2,8 +2,12 @@
 
 Console.WriteLine("Boas Vindas ao ByteBank, Atendimento.");
 
+// inicializando um array
+double[] amostra = new double[5] { 3, 5, 7, 15, 20 };
+
 // Chamando métodos
-TestaMediana(CriandoArrayAmostra());
+//TestaMediana(CriandoArrayAmostra());
+MediaAmostra(amostra);
 
 // Métodos
 void TestaArrayInt()
@@ -114,4 +118,28 @@ void TestaMediana(Array array)
         (numerosOrdenados[meio] + numerosOrdenados[meio - 1]) / 2;
 
     Console.WriteLine($"Com base na amostra a mediana é {mediana}");
+}
+
+double MediaAmostra(double[] amostra)
+{
+    double media;
+    double acumulador = 0;
+
+    if ((amostra==null) || (amostra.Length == 0))
+    {
+        Console.WriteLine("Amostra de dados nula ou vazia.");
+        return 0;
+    }
+    else
+    {
+        for (int i = 0; i < amostra.Length; i++)
+        {
+            acumulador += amostra[i];
+        }
+        media = acumulador / amostra.Length;
+    }
+
+    Console.WriteLine(media);
+
+    return media;
 }

@@ -1,13 +1,16 @@
-﻿using System;
+﻿using bytebank.Modelos.Conta;
+using System;
+using System.Xml;
 
 Console.WriteLine("Boas Vindas ao ByteBank, Atendimento.");
 
-// inicializando um array
-double[] amostra = new double[5] { 3, 5, 7, 15, 20 };
+// criando um vetor e já inicializando o array
+double[] amostra = new double[] { 3, 5, 7, 15, 20 };
 
 // Chamando métodos
 //TestaMediana(CriandoArrayAmostra());
-MediaAmostra(amostra);
+//MediaAmostra(amostra);
+TestaArrayDeContasCorrentes();
 
 // Métodos
 void TestaArrayInt()
@@ -142,4 +145,22 @@ double MediaAmostra(double[] amostra)
     Console.WriteLine(media);
 
     return media;
+}
+
+void TestaArrayDeContasCorrentes()
+{
+    // Criando um array do tipo ContaCorrente
+    ContaCorrente[] listaDeContas = new ContaCorrente[]
+    {
+        new ContaCorrente(874, "5679787-A"),
+        new ContaCorrente(874, "4456668-B"),
+        new ContaCorrente(874, "7781438-C")
+    };
+
+    // Iterando sobre o array para exibir os valores da conta
+    for (int i = 0; i < listaDeContas.Length; i++)
+    {
+        ContaCorrente contaAtual = listaDeContas[i];
+        Console.WriteLine($"Indice {i} - Agencia: {contaAtual.Numero_agencia} - Conta: {contaAtual.Conta}");
+    }
 }

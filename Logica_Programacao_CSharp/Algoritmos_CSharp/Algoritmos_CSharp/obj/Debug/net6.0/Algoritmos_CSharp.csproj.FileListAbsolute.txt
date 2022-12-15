@@ -1,0 +1,15 @@
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\bin\Debug\net6.0\Algoritmos_CSharp.exe
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\bin\Debug\net6.0\Algoritmos_CSharp.deps.json
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\bin\Debug\net6.0\Algoritmos_CSharp.runtimeconfig.json
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\bin\Debug\net6.0\Algoritmos_CSharp.dll
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\bin\Debug\net6.0\Algoritmos_CSharp.pdb
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.csproj.AssemblyReference.cache
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.AssemblyInfoInputs.cache
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.AssemblyInfo.cs
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.dll
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\refint\Algoritmos_CSharp.dll
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.pdb
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\Algoritmos_CSharp.genruntimeconfig.cache
+C:\Users\wesll\Documents\projeto-CSharp\Logica_Programacao_CSharp\Algoritmos_CSharp\Algoritmos_CSharp\obj\Debug\net6.0\ref\Algoritmos_CSharp.dll

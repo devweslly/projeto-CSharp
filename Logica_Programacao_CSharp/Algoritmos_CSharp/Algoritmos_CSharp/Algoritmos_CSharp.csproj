@@ -8,9 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Cap2-Fundamentos\" />
-    <Folder Include="Cap3-Estruturas-Selecao\" />
-    <Folder Include="Cap4-Estruturas-Repeticao\" />
     <Folder Include="Cap5-Vetores-Matrizes\" />
     <Folder Include="Cap6-Funcoes\" />
   </ItemGroup>

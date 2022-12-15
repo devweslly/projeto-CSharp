@@ -1,6 +1,6 @@
 ﻿namespace bytebank.Modelos.Conta
 {
-	public class ContaCorrente
+	public class ContaCorrente:IComparable<ContaCorrente>
 	{
 		private int _numero_agencia;
 
@@ -96,10 +96,10 @@
 			return true;
 		}
 
-		public ContaCorrente(int numero_agencia, string numero_conta)
+		public ContaCorrente(int numero_agencia, string conta)
 		{
 			Numero_agencia = numero_agencia;
-			Conta = Guid.NewGuid().ToString().Substring(0, 8);
+			Conta = conta;
 			Titular = new Cliente();
 			TotalDeContasCriadas++;
 		}
@@ -109,9 +109,23 @@
 
 			return $" === DADOS DA CONTA === \n" +
 				   $"Número da Conta : {this.Conta} \n" +
+				   $"Saldo da Conta: {this.Saldo} \n" +
 				   $"Titular da Conta: {this.Titular.Nome} \n" +
 				   $"CPF do Titular  : {this.Titular.Cpf} \n" +
 				   $"Profissão do Titular: { this.Titular.Profissao}";
+		}
+
+        // Aqui o caractere '?' significa que este metodo pode receber um  pbjeto nulo
+        public int CompareTo(ContaCorrente? other)
+		{
+			if (other== null)
+			{
+				return 1;
+			}
+			else
+			{
+				return this.Numero_agencia.CompareTo(other.Numero_agencia);
+			}
 		}
 	}
 

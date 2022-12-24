@@ -1,0 +1,15 @@
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\bin\Debug\net6.0\Estrutura_de_Dados_CSharp.exe
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\bin\Debug\net6.0\Estrutura_de_Dados_CSharp.deps.json
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\bin\Debug\net6.0\Estrutura_de_Dados_CSharp.runtimeconfig.json
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\bin\Debug\net6.0\Estrutura_de_Dados_CSharp.dll
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\bin\Debug\net6.0\Estrutura_de_Dados_CSharp.pdb
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.csproj.AssemblyReference.cache
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.AssemblyInfoInputs.cache
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.AssemblyInfo.cs
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.dll
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\refint\Estrutura_de_Dados_CSharp.dll
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.pdb
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\Estrutura_de_Dados_CSharp.genruntimeconfig.cache
+C:\Users\wesll\Documents\projeto-CSharp\Estrutura_de_Dados_CSharp\obj\Debug\net6.0\ref\Estrutura_de_Dados_CSharp.dll

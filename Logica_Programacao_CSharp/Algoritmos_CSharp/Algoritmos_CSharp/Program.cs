@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Algoritmos_CSharp.Cap2_Fundamentos;
+﻿using Algoritmos_CSharp.Cap2_Fundamentos;
 using Algoritmos_CSharp.Cap3_Estruturas_Selecao;
 using Algoritmos_CSharp.Cap4_Estruturas_Repeticao;
 

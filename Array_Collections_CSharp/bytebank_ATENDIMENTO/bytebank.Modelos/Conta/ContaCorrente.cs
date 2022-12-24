@@ -104,15 +104,33 @@
 			TotalDeContasCriadas++;
 		}
 
-		public override string ToString()
+		public ContaCorrente(int numero_agencia)
+		{
+            /*
+			 * O Globally Unique Identifier, mais conhecido como GUID, ele representa um identificador global
+			 * exclusivo ele é utilizado para as situações que precisamos de uma sequência única 
+			 * que não se repita para toda uma aplicação.
+			 */
+
+            Numero_agencia = numero_agencia;
+            // Aqui a estrutura Guid vai ser transformado em uma string aleatoria alfanumerica.
+            // Pegando uma Substring da string que será gerada da posição 0 a 8 da string
+            Conta = Guid.NewGuid().ToString().Substring(0,8);
+			Titular = new Cliente();
+			TotalDeContasCriadas += 1;
+		}
+
+		public override string ToString()	
 		{
 
 			return $" === DADOS DA CONTA === \n" +
 				   $"Número da Conta : {this.Conta} \n" +
-				   $"Saldo da Conta: {this.Saldo} \n" +
+                   $"Número da Agência : {this.Numero_agencia} \n" +
+                   $"Saldo da Conta: {this.Saldo} \n" +
 				   $"Titular da Conta: {this.Titular.Nome} \n" +
 				   $"CPF do Titular  : {this.Titular.Cpf} \n" +
-				   $"Profissão do Titular: { this.Titular.Profissao}";
+				   $"Profissão do Titular: { this.Titular.Profissao}\n" +
+				   $"-----------------------------------------------";
 		}
 
         // Aqui o caractere '?' significa que este metodo pode receber um  pbjeto nulo

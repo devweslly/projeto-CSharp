@@ -1,9 +1,12 @@
 ﻿using ByteBankIO;
+using System.Text;
 
-class Program
+partial class Program
 {
     static void Main(string[] args)
     {
+        //  CriarArquivoComWriter();
+        TestaEscrita();
 
         Console.ReadLine();
     }
